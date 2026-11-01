@@ -5,13 +5,13 @@ int main() {
 	// your code goes here
     int t;
     cin >> t;
-    int a, b;
+    int x;
     while(t--){
-        cin >> a >> b;
-        if(a >= b){
-            cout << b << " ";
+        cin >> x;
+        if(x==6){
+            cout << "yes" << " ";
         }else{
-            cout << a << " ";
+            cout << "no" << " ";
         }
     }
     return 0;
